@@ -15,7 +15,7 @@ Continue to follow the instructions and ask for help if you face difficulties ac
 
 Next, access our assignments, click the following link to accept the assignment in GitHub.
 
-https://classroom.github.com/a/JhAwLHwL 
+[INSERT LINK TO ASSSIGNMENT ON GITHUB CLASSROOM HERE]
 
 ## Assignment
 
