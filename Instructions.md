@@ -28,8 +28,8 @@ For this assignment, read Bookdown chapter 2 sections 2.1 - 2.11 and use the sy
 
 ### Text level
 
-- Remove the text about R Markdown to add a sentence that says something like "I have added text here to show I can write in an R Markdown. " Save the file and then commit with the message "Updated textual information."
-- Change the text to a new sentence that says something like "Here are some of my favorite things: " then use the bullet points or numbers to list three things you love.  Save the file and then commit with the message "Added my favorite things."
+- Remove the text about R Markdown to add a sentence that says something like "I have added text here to show I can write in an R Markdown document." Save the file and then commit with the message "Updated textual information."
+- Change the text to a new sentence that says something like "Here are some of my favorite things: " then add a blank line and use the bullet points or numbers to list three things you love.  Save the file and then commit with the message "Added my favorite things."
 - Change the header "## Including Plots" to "## Average MPG" and then save the file and then commit with the message "Updated headers"
 
 ### Chunk level
