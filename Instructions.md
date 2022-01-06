@@ -4,22 +4,19 @@ First R markdown Assignment in Github
 ## Finding the assignment on GitHub
 
 Git is a powerful tool for tracking the development of your code and working collaboratively with carefully controlled versioning.
-
 We will be completing assignments in GitHub Classroom in order to easily provide feedback on code, work in teams, and eventually host our dashboard.
 
-https://github.com/jfiksel/github-classroom-for-students 
+A complete [guide for students using GitHub Classroom] (https://github.com/jfiksel/github-classroom-for-students) is available.
 
-To begin you will want to make sure you have a GitHub account and have successfully installed R and R Studio. When signing up, I'd prefer your username is similar to your name in Canvas so I can identify you.
+To begin you will want to make sure you have a GitHub account and have successfully installed R and R Studio. When signing up, I'd prefer your username is similar to your name in Canvas so I can identify you. You may run into security issues regarding HTTPS or SSH protocols. 
+If this occurs, contact the instructor for additional support. 
+Otherwise, continue to follow the instructions and ask for help if you face difficulties accessing the terminal or website.
 
-Continue to follow the instructions and ask for help if you face difficulties accessing the terminal or website.
-
-Next, access our assignments, click the following link to accept the assignment in GitHub.
-
-[INSERT LINK TO ASSSIGNMENT ON GITHUB CLASSROOM HERE]
+Next, access our assignments, click the provided link to accept the assignment in GitHub Classroom.
 
 ## Assignment
 
-For this assignment, read [Bookdown chapter 2](https://bookdown.org/yihui/rmarkdown/basics.html) sections 2.1 - 2.11 and use the syntax of R markdown to complete the assignment by editing three sections of an R Markdown the YAML header, the text, and the chunk, while making a commit for each change.
+For this assignment, read [Bookdown chapter 2](https://bookdown.org/yihui/rmarkdown/basics.html) sections 2.1 - 2.11 and use the syntax of R Markdown to complete the assignment by editing three sections of an R Markdown the YAML header, the text, and the chunk, while making a commit for each change.
 
 ### YAML header
 
@@ -40,7 +37,7 @@ For this assignment, read [Bookdown chapter 2](https://bookdown.org/yihui/rmarkd
 knitr::opts_chunk$set(echo = TRUE)
 require('tidyverse')
 ```
-- Change the `avgmpg` code chunk so it shows miles per gallon for city driving instead of the highway so it matches the code below, save the file, and then commit with the message "Converted the bar plot of mpg to city averages." 
+- Change the `avgmpg` code chunk so it shows miles per gallon for city driving instead of the highway so it matches the code below, save the file, and then commit with a message like "Converted the bar plot of mpg to city averages." 
 
 ```{r avgmpg}
 avgmpgdata <- mpg %>% 
@@ -56,7 +53,7 @@ g + geom_col(aes(x = cty, y = reorder(manufacturer, cty), fill = manufacturer)) 
 ### Knit the document
 Now that you have all the information you need to update the visualization, you are ready to turn the R Markdown file into an HTML webpage. 
 
-- Press the Knit button so that an HTML file is made. After Knitting the document, commit with the message "Knitted the mpg figure to HTML document."
+- Press the Knit button so that an HTML file is made. After Knitting the document, commit with a message like "Knitted the mpg figure to HTML document."
 
 ### Submit the assignment
 
