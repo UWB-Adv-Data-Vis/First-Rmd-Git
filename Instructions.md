@@ -6,17 +6,17 @@ First R markdown Assignment in Github
 Git is a powerful tool for tracking the development of your code and working collaboratively with carefully controlled versioning.
 We will be completing assignments in GitHub Classroom in order to easily provide feedback on code, work in teams, and eventually host our dashboard.
 
-A complete [guide for students using GitHub Classroom] (https://github.com/jfiksel/github-classroom-for-students) is available.
+A complete [guide for students using GitHub Classroom](https://github.com/jfiksel/github-classroom-for-students) is available.
 
 To begin you will want to make sure you have a GitHub account and have successfully installed R and R Studio. When signing up, I'd prefer your username is similar to your name in Canvas so I can identify you. You may run into security issues regarding HTTPS or SSH protocols. 
 If this occurs, contact the instructor for additional support. 
 Otherwise, continue to follow the instructions and ask for help if you face difficulties accessing the terminal or website.
 
-Next, access our assignments, click the provided link to accept the assignment in GitHub Classroom.
+Next, access our assignments, click the provided link to accept the assignment in GitHub Classroom. To submit, Push your changes and then paste the link to your repo in Canvas to indicate you have completed the assignment.
 
 ## Assignment
 
-For this assignment, read [Bookdown chapter 2](https://bookdown.org/yihui/rmarkdown/basics.html) sections 2.1 - 2.11 and use the syntax of R Markdown to complete the assignment by editing three sections of an R Markdown the YAML header, the text, and the chunk, while making a commit for each change.
+For this assignment, read [Bookdown chapter 2](https://bookdown.org/yihui/rmarkdown/basics.html) sections 2.1 - 2.8 and use the syntax of R Markdown to complete the assignment by editing three sections of an R Markdown the YAML header, the text, and the chunk, while making a commit for each change.
 
 ### YAML header
 
@@ -57,7 +57,7 @@ Now that you have all the information you need to update the visualization, you 
 
 ### Submit the assignment
 
-You have complete the assignment and are ready to turn it in. To submit it for grading, push your commits to your repository using the "Push" button. Then use GitHub to submit a pull request. Here your professor can view your work and provide feedback.
+You have complete the assignment and are ready to turn it in. To submit it for grading, push your commits to your repository using the "Push" button. Then use GitHub to submit a pull request. Here your professor can view your work and provide feedback. Finally, copy and paste the link to your repo in Canvas to indicate you have completed the assignment.
 
 ## Additional resources for connecting with Git using R Studio
 
