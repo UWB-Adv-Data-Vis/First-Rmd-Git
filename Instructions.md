@@ -16,7 +16,7 @@ Next, access our assignments, click the provided link to accept the assignment i
 
 ## Assignment
 
-For this assignment, read [Bookdown chapter 2](https://bookdown.org/yihui/rmarkdown/basics.html) sections 2.1 - 2.8 and use the syntax of R Markdown to complete the assignment by editing three sections of an R Markdown the YAML header, the text, and the chunk, while making a commit for each change.
+For this assignment, read [Bookdown chapter 2](https://bookdown.org/yihui/rmarkdown/basics.html) sections 2.1 - 2.11 and use the syntax of R Markdown to complete the assignment by editing three sections of an R Markdown the YAML header, the text, and the chunk, while making a commit for each change.
 
 ### YAML header
 
