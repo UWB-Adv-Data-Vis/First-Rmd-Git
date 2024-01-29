@@ -28,24 +28,22 @@ For this assignment, read [Bookdown chapter 2](https://bookdown.org/yihui/rmarkd
 
 - Remove the text about R Markdown to add a sentence that says something like "I have added text here to show I can write in an R Markdown document." Save the file and then commit with the message "Updated textual information."
 - Change the text to a new sentence that says something like "Here are some of my favorite things: " then add a blank line and use the bullet points or numbers to list three things you love.  Save the file and then commit with the message "Added my favorite things."
-- Change the header "## Including Plots" to "## Average MPG" and then save the file and then commit with the message "Updated headers"
+- Change the header `## Including Plots` to `## Average MPG` and then save the file and then commit with the message "Updated headers"
 
 ### Chunk level
 
 - Change the `setup` chunk to the code below, save the file, and then commit with the message "Added tidyverse package." You may need to install the package if the script does not do so. 
 
-```
-
-{r setup, include=FALSE}
+````
+```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 require('tidyverse')
-
-```
+``` 
+````
 - Change the `avgmpg` code chunk so it shows miles per gallon for city driving instead of the highway so it matches the code below, save the file, and then commit with a message like "Converted the bar plot of mpg to city averages." 
 
-```
-
-{r avgmpg}
+```` 
+```{r avgmpg}
 avgmpgdata <- mpg %>% 
   group_by(manufacturer) %>% 
   summarize(hwy = mean(hwy), cty = mean(cty))
@@ -54,8 +52,8 @@ g <- ggplot(data = avgmpgdata)
 g + geom_col(aes(x = cty, y = reorder(manufacturer, cty), fill = manufacturer)) +
   ggtitle("Average Miles per Gallon for City Driving by Manufacturer", subtitle = "Data on vehicles from 1999 to 2008 for 38 popular models of cars") +
   theme(legend.position="none") 
-  
 ```
+````  
 
 ### Knit the document
 Now that you have all the information you need to update the visualization, you are ready to turn the R Markdown file into an HTML webpage. 
