@@ -66,7 +66,7 @@ Now that you have all the information you need to update the visualization, you 
 
 ### Submit the assignment
 
-You have complete the assignment and are ready to turn it in. To submit it for grading, push your commits to your repository using the "Push" button. Then use GitHub to submit a pull request. Here your professor can view your work and provide feedback. Finally, copy and paste the link to your repo in Canvas to indicate you have completed the assignment.
+You have complete the assignment and are ready to turn it in. To submit it for grading, push your commits to your repository using the "Push" button. Then check GitHub that your commits are visible and your final HTML is upto date. Here your professor can view your work and provide feedback on the "Feedback" pull request. You do not need to merge the pull request. Finally, copy and paste the link to your repo in Canvas to indicate you have completed the assignment.
 
 ## Additional resources for connecting with Git using R Studio
 
